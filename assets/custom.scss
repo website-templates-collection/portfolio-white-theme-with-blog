@@ -1,6 +1,7 @@
 :root, [data-bs-theme=light] {
 --bs-light-border-subtle: #1b1b1b;
 --bs-secondary-rgb:237,247,250;
+--enable-negative-margins: true;
 }
 .navbar {
     --bs-navbar-toggler-icon-bg:url('./images/icons/hamburger.svg');
@@ -69,4 +70,11 @@ html{
 }
 .text-light{
     color: #9C9C9C !important;
+}
+
+.ms-n3{
+    margin-left:-2rem !important;
+}
+.ms-n4{
+    margin-left:-3rem !important;
 }
